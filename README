@@ -1,0 +1,101 @@
+Donovan Griego
+9-24-2020
+Lab 3
+
+Purpose: To experiment manipulating arrays in functions via parameters and return values.
+
+Pseduo-code:
+
+3.1.7:
+Less than:
+//counts the number of elements in an array that are less than x
+//A[1..N], an array with N elements
+count = 0
+for i = 1 to N 
+    if A[i] < x
+        count += 1
+
+Less than or equal to:
+//counts the number of elements in an array that are less than or equal to x
+//A[1..N], an array with N elements
+count = 0
+for i = 1 to N 
+    if A[i] <= x
+        count += 1
+
+Greater than or equal to:
+//counts the number of elements in an array that are greater than or equal to x
+//A[1..N], an array with N elements
+count = 0
+for i = 1 to N 
+    if A[i] >= x
+        count += 1
+
+Greater than:
+//counts the number of elements in an array that are greater than x
+//A[1..N], an array with N elements
+count = 0
+for i = 1 to N 
+    if A[i] > x
+        count += 1
+
+3.1.12:
+//reverses the order of an array
+//b[1..N], an array with N elements
+int b[N]
+for i = 1 to N      //create an array that is reversed from a
+    b[N-1-i] = a[i]
+for i = 1 to N      //set the original array to the reversed one
+    a[i] = b[i]
+
+3.1.13:
+//finds the number of even numbers in an array
+//a[1..N], an array with N elements
+count = 0
+for i = 1 to N 
+    if A[i] % 2 == 0
+        count += 1
+
+3.1.14:
+//finds the number of odd numbers in an array
+//a[1..N], an array with N elements
+count = 0
+for i = 1 to N 
+    if A[i] % 2 == 1
+        count += 1
+
+3.1.15:
+//finds the number of numbers divisible by a given number x in an array
+//a[1..N], an array with N elements
+count = 0
+for i = 1 to N 
+    if A[i] % x == 0
+        count += 1
+
+Conclusions:
+
+a) What I learned from this lab:
+I learned to use multiple source files and functions to more simplify
+and better organize my code. When solving a complex problem, it is
+beneficial to split it into smaller pieces and separate them into 
+functions that each have their own tasks. That way testing different 
+parts can be done separately and bugs can be isolated and fixed more 
+easily.
+
+b) How did the pair programming help/hinder the lab:
+Pair: I liked working with someone else on the prelab. We both benefited
+eachother by having a different point of view and different ideas on how 
+to solve a given problem. We got to experiment with different ideas and 
+figure out what worked together. For example, we both had different ideas 
+on how to approach the Luhn's Algorithm problem. We both explained our 
+ideas and then experimented to find what would do the job more efficiently. 
+It was very helpful to work through this with another person.
+
+c) Issues and how I fixed them (bug report):
+Other than a couple of forgotten semicolons, I did not have any issues 
+when writing my solutions to this lab.
+
+d) Improvements that can be made:
+In the future, I would change the lab3.c from integers to floating point 
+numbers so that we have more accurate calculations and more flexibility 
+when it comes to what we can include in the array. 
